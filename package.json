@@ -6,8 +6,7 @@
   "author": "xadparo <45482148+xadparo@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
-    "watch": "tsc -w",
-    "demon": "nodemon ."
+    "watch": "tsc -w"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.28.0",
