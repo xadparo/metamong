@@ -10,3 +10,9 @@ dist
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# env
+.envrc
+
+# mac
+.DS_Store
