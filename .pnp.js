@@ -38,6 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["@types/module-alias", "npm:2.0.1"],
+            ["@types/node", "npm:16.6.2"],
             ["@typescript-eslint/eslint-plugin", "virtual:40e1c025258f39f43fc6c06fa68a1470f264176ef215286f3e5b8b5b9cb2af1c23ad882980a748763a8da831a95e01510d21d8eb2cc7ad449eec98751d177928#npm:4.28.0"],
             ["@typescript-eslint/parser", "virtual:40e1c025258f39f43fc6c06fa68a1470f264176ef215286f3e5b8b5b9cb2af1c23ad882980a748763a8da831a95e01510d21d8eb2cc7ad449eec98751d177928#npm:4.28.0"],
             ["@yarnpkg/pnpify", "virtual:40e1c025258f39f43fc6c06fa68a1470f264176ef215286f3e5b8b5b9cb2af1c23ad882980a748763a8da831a95e01510d21d8eb2cc7ad449eec98751d177928#npm:3.0.0-rc.7"],
@@ -229,6 +230,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-node-npm-15.12.5-bfb1f4b853-42485de7a0.zip/node_modules/@types/node/",
           "packageDependencies": [
             ["@types/node", "npm:15.12.5"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:16.6.2", {
+          "packageLocation": "./.yarn/cache/@types-node-npm-16.6.2-0e6fd0fd1a-6cb8307751.zip/node_modules/@types/node/",
+          "packageDependencies": [
+            ["@types/node", "npm:16.6.2"]
           ],
           "linkType": "HARD",
         }]
@@ -1884,6 +1892,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["metamong", "workspace:."],
             ["@types/module-alias", "npm:2.0.1"],
+            ["@types/node", "npm:16.6.2"],
             ["@typescript-eslint/eslint-plugin", "virtual:40e1c025258f39f43fc6c06fa68a1470f264176ef215286f3e5b8b5b9cb2af1c23ad882980a748763a8da831a95e01510d21d8eb2cc7ad449eec98751d177928#npm:4.28.0"],
             ["@typescript-eslint/parser", "virtual:40e1c025258f39f43fc6c06fa68a1470f264176ef215286f3e5b8b5b9cb2af1c23ad882980a748763a8da831a95e01510d21d8eb2cc7ad449eec98751d177928#npm:4.28.0"],
             ["@yarnpkg/pnpify", "virtual:40e1c025258f39f43fc6c06fa68a1470f264176ef215286f3e5b8b5b9cb2af1c23ad882980a748763a8da831a95e01510d21d8eb2cc7ad449eec98751d177928#npm:3.0.0-rc.7"],
