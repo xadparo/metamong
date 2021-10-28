@@ -16,7 +16,6 @@
     "test": "echo test"
   },
   "devDependencies": {
-    "@types/module-alias": "^2",
     "@types/node": "^16.6.2",
     "@typescript-eslint/eslint-plugin": "^4.28.0",
     "@typescript-eslint/parser": "^4.28.0",
@@ -28,7 +27,6 @@
   },
   "dependencies": {
     "@yarnpkg/pnpify": "^3.0.0-rc.7",
-    "module-alias": "^2.2.2",
     "moment": "^2.29.1"
   }
 }
