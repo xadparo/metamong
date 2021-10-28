@@ -9,8 +9,11 @@
     "@": "dist"
   },
   "scripts": {
-    "watch": "tsc -w",
-    "dev": "nodemon ."
+    "start": "node dist/main",
+    "build": "node build",
+    "watch": "node build -w",
+    "dev": "nodemon dist/main",
+    "test": "echo test"
   },
   "devDependencies": {
     "@types/module-alias": "^2",
