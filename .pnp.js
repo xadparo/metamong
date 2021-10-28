@@ -47,6 +47,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:7.29.0"],
             ["eslint-config-google", "virtual:40e1c025258f39f43fc6c06fa68a1470f264176ef215286f3e5b8b5b9cb2af1c23ad882980a748763a8da831a95e01510d21d8eb2cc7ad449eec98751d177928#npm:0.14.0"],
             ["module-alias", "npm:2.2.2"],
+            ["moment", "npm:2.29.1"],
             ["typescript", "patch:typescript@npm%3A4.3.4#builtin<compat/typescript>::version=4.3.4&hash=ddfc1b"]
           ],
           "linkType": "SOFT",
@@ -2091,6 +2092,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:7.29.0"],
             ["eslint-config-google", "virtual:40e1c025258f39f43fc6c06fa68a1470f264176ef215286f3e5b8b5b9cb2af1c23ad882980a748763a8da831a95e01510d21d8eb2cc7ad449eec98751d177928#npm:0.14.0"],
             ["module-alias", "npm:2.2.2"],
+            ["moment", "npm:2.29.1"],
             ["typescript", "patch:typescript@npm%3A4.3.4#builtin<compat/typescript>::version=4.3.4&hash=ddfc1b"]
           ],
           "linkType": "SOFT",
@@ -2185,6 +2187,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/module-alias-npm-2.2.2-576bd37c03-1b37943df4.zip/node_modules/module-alias/",
           "packageDependencies": [
             ["module-alias", "npm:2.2.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["moment", [
+        ["npm:2.29.1", {
+          "packageLocation": "./.yarn/cache/moment-npm-2.29.1-787d9fdafd-86729013fe.zip/node_modules/moment/",
+          "packageDependencies": [
+            ["moment", "npm:2.29.1"]
           ],
           "linkType": "HARD",
         }]

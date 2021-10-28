@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "@yarnpkg/pnpify": "^3.0.0-rc.7",
-    "module-alias": "^2.2.2"
+    "module-alias": "^2.2.2",
+    "moment": "^2.29.1"
   }
 }
