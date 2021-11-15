@@ -39,6 +39,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/eslint-plugin", "virtual:40e1c025258f39f43fc6c06fa68a1470f264176ef215286f3e5b8b5b9cb2af1c23ad882980a748763a8da831a95e01510d21d8eb2cc7ad449eec98751d177928#npm:4.28.0"],
             ["@typescript-eslint/parser", "virtual:40e1c025258f39f43fc6c06fa68a1470f264176ef215286f3e5b8b5b9cb2af1c23ad882980a748763a8da831a95e01510d21d8eb2cc7ad449eec98751d177928#npm:4.28.0"],
             ["@yarnpkg/pnpify", "virtual:40e1c025258f39f43fc6c06fa68a1470f264176ef215286f3e5b8b5b9cb2af1c23ad882980a748763a8da831a95e01510d21d8eb2cc7ad449eec98751d177928#npm:3.0.0-rc.7"],
+            ["chalk", "npm:4.1.2"],
             ["dotenv", "npm:10.0.0"],
             ["esbuild", "npm:0.13.9"],
             ["eslint", "npm:7.29.0"],
@@ -829,6 +830,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/chalk-npm-4.1.1-f1ce6bae57-036e973e66.zip/node_modules/chalk/",
           "packageDependencies": [
             ["chalk", "npm:4.1.1"],
+            ["ansi-styles", "npm:4.3.0"],
+            ["supports-color", "npm:7.2.0"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:4.1.2", {
+          "packageLocation": "./.yarn/cache/chalk-npm-4.1.2-ba8b67ab80-fe75c9d5c7.zip/node_modules/chalk/",
+          "packageDependencies": [
+            ["chalk", "npm:4.1.2"],
             ["ansi-styles", "npm:4.3.0"],
             ["supports-color", "npm:7.2.0"]
           ],
@@ -2083,6 +2093,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/eslint-plugin", "virtual:40e1c025258f39f43fc6c06fa68a1470f264176ef215286f3e5b8b5b9cb2af1c23ad882980a748763a8da831a95e01510d21d8eb2cc7ad449eec98751d177928#npm:4.28.0"],
             ["@typescript-eslint/parser", "virtual:40e1c025258f39f43fc6c06fa68a1470f264176ef215286f3e5b8b5b9cb2af1c23ad882980a748763a8da831a95e01510d21d8eb2cc7ad449eec98751d177928#npm:4.28.0"],
             ["@yarnpkg/pnpify", "virtual:40e1c025258f39f43fc6c06fa68a1470f264176ef215286f3e5b8b5b9cb2af1c23ad882980a748763a8da831a95e01510d21d8eb2cc7ad449eec98751d177928#npm:3.0.0-rc.7"],
+            ["chalk", "npm:4.1.2"],
             ["dotenv", "npm:10.0.0"],
             ["esbuild", "npm:0.13.9"],
             ["eslint", "npm:7.29.0"],
