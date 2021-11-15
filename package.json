@@ -11,8 +11,7 @@
   "scripts": {
     "start": "node dist/main",
     "build": "node build",
-    "watch": "node build -w",
-    "dev": "nodemon dist/main",
+    "dev": "node build -w",
     "test": "echo test"
   },
   "devDependencies": {
