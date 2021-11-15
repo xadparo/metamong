@@ -28,5 +28,6 @@
     "@yarnpkg/pnpify": "^3.0.0-rc.7",
     "chalk": "^4.1.2",
     "moment": "^2.29.1"
-  }
+  },
+  "packageManager": "yarn@3.1.0"
 }
