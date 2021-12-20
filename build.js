@@ -32,6 +32,7 @@ const processManager = {
 
     const child = this.child = childprocess.spawn('node', ['dist/main'])
     child.stdout.pipe(process.stdout)
+    child.stderr.pipe(process.stderr)
     console.log(chalk.blueBright`[Builder] Server (re)start ${new Date}`)
   },
 }
