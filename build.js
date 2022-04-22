@@ -37,9 +37,6 @@ const processManager = {
   },
 }
 
-if (watch) {
-  processManager.startChild()
-}
 esbuild.build({
   entryPoints: ['src/main.ts'],
   platform: 'node',
@@ -58,3 +55,7 @@ esbuild.build({
   outdir: 'dist',
   tsconfig: 'tsconfig.json',
 })
+
+if (watch) {
+  processManager.startChild()
+}
